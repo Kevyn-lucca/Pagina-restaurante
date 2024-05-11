@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css ***!
+  \****************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\n\n/* Document\n   ========================================================================== */\n\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\n\nhtml {\n  line-height: 1.15; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/* Sections\n   ========================================================================== */\n\n/**\n * Remove the margin in all browsers.\n */\n\nbody {\n  margin: 0;\n}\n\n/**\n * Render the \\`main\\` element consistently in IE.\n */\n\nmain {\n  display: block;\n}\n\n/**\n * Correct the font size and margin on \\`h1\\` elements within \\`section\\` and\n * \\`article\\` contexts in Chrome, Firefox, and Safari.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\n\nhr {\n  box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd \\`em\\` font sizing in all browsers.\n */\n\npre {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Remove the gray background on active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\n\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  text-decoration: underline dotted; /* 2 */\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd \\`em\\` font sizing in all browsers.\n */\n\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\n * Add the correct font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent \\`sub\\` and \\`sup\\` elements from affecting the line height in\n * all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove the border on images inside links in IE 10.\n */\n\nimg {\n  border-style: none;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: 1.15; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\n\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\n\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\n\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Correct the padding in Firefox.\n */\n\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from \\`fieldset\\` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    \\`fieldset\\` elements in all browsers.\n */\n\nlegend {\n  box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to \\`inherit\\` in Safari.\n */\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/* Interactive\n   ========================================================================== */\n\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\n\ndetails {\n  display: block;\n}\n\n/*\n * Add the correct display in all browsers.\n */\n\nsummary {\n  display: list-item;\n}\n\n/* Misc\n   ========================================================================== */\n\n/**\n * Add the correct display in IE 10+.\n */\n\ntemplate {\n  display: none;\n}\n\n/**\n * Add the correct display in IE 10.\n */\n\n[hidden] {\n  display: none;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pagina-restaurante/./node_modules/normalize.css/normalize.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, ``, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pagina-restaurante/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `header{\n    background-color: blue;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pagina-restaurante/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -37,6 +47,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://pagina-restaurante/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./node_modules/normalize.css/normalize.css":
+/*!**************************************************!*\
+  !*** ./node_modules/normalize.css/normalize.css ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../css-loader/dist/cjs.js!./normalize.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\noptions.insert = _style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\noptions.domAPI = (_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://pagina-restaurante/./node_modules/normalize.css/normalize.css?");
 
 /***/ }),
 
@@ -110,43 +130,113 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/imgs.js":
+/*!*********************!*\
+  !*** ./src/imgs.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   imgIndex: () => (/* binding */ imgIndex)\n/* harmony export */ });\nconst imgIndex = {\n    Phone: __webpack_require__(/*! ./imgs/phone.svg */ \"./src/imgs/phone.svg\"),\n    storeFront: __webpack_require__(/*! ./imgs/Store.jpg */ \"./src/imgs/Store.jpg\"),\n    storeIcon: __webpack_require__(/*! ./imgs/store.svg */ \"./src/imgs/store.svg\"),\n    food1: __webpack_require__(/*! ./imgs/Pizza.jpg */ \"./src/imgs/Pizza.jpg\"),\n    food2: __webpack_require__(/*! ./imgs/Hamburguer2.jpg */ \"./src/imgs/Hamburguer2.jpg\"),\n    food3: __webpack_require__(/*! ./imgs/Hamburger1.jpg */ \"./src/imgs/Hamburger1.jpg\"),\n    food4: __webpack_require__(/*! ./imgs/dog.jpg */ \"./src/imgs/dog.jpg\"),\n    food5: __webpack_require__(/*! ./imgs/cerveja.jpg */ \"./src/imgs/cerveja.jpg\"),\n    food6: __webpack_require__(/*! ./imgs/suco.jpg */ \"./src/imgs/suco.jpg\")\n}\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _phone_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./phone.svg */ \"./src/phone.svg\");\n/* harmony import */ var _store_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./store.svg */ \"./src/store.svg\");\n/* harmony import */ var _Store_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Store.jpg */ \"./src/Store.jpg\");\n// Importando os estilos, e os ícones e imagens necessários para a página deve importa somente o style\n\n\n\n\n/*\nTodos:  \n    1 - criar o loop que gera seis divs aonde vai o menu\n    2 - cria o objeto que tem todas as imagens que irão no site\n    3 - gerar a logica que poẽm uma imagem diferente em cada div\n    4 - gera a logica que poẽm um texto diferente em cada div\n    5 - estilizar o site\n        ?cria um array que pega um texto e uma imagem se pa para fazer a 4 ea 3?\n        !estilizar o site provavelmente e o que mais vai demorar, cheque a folha de desing\n*/\n\n// Função principal que cria e manipula os elementos da página\nfunction component(){\n\n    // Lógica para lidar com os botões\n    button.forEach((button) => {\n        button.addEventListener('click', () =>{\n            // Limpa o conteúdo atual\n            content.innerHTML = \" \"\n            \n            // Condição para determinar qual função será chamada com base no valor do botão\n            if(button.value == \"about\"){\n                about()\n            }\n            if(button.value == \"local\"){\n                local()\n            }\n            if(button.value == \"menu\"){\n                menu()\n            }\n        });\n    });\n\n    // Função para exibir informações sobre a empresa\n    function about(){\n        // Cria elementos para mostrar informações sobre a empresa\n        const AboutDiv = document.createElement('div')\n        const AboutText = document.createElement('p')\n        const AboutList = document.createElement('ul')\n  \n        // Adiciona elementos à página\n        content.appendChild(AboutDiv)\n        AboutDiv.appendChild(AboutText)\n        content.appendChild(AboutList)\n\n        // Define o texto sobre a empresa\n        AboutText.textContent = \"Esse é um texto de teste feito para testar como esse elemento está interagindo com a página\"\n        \n        // Loop para criar itens de lista com ícones e texto\n        for (let i = 0; i < 2; i++) {\n            const AboutInfo = document.createElement('li');\n            AboutList.appendChild(AboutInfo);\n    \n            // Adiciona ícones de acordo com o índice do loop\n            const Icon = new Image();\n            Icon.src = i === 0 ? _phone_svg__WEBPACK_IMPORTED_MODULE_1__ : _store_svg__WEBPACK_IMPORTED_MODULE_2__;\n            AboutInfo.appendChild(Icon);\n    \n            // Adiciona texto aos itens da lista\n            const text = document.createElement('span');\n            text.textContent = i === 0 ? 'Lista gerada com sucesso' : 'Segundo item da lista gerado com sucesso';\n            AboutInfo.appendChild(text);\n        }\n\n    }\n\n    // Função para exibir informações sobre a localização\n    function local(){\n        // Cria elemento de imagem para mostrar a localização\n        const store = new Image();\n        store.src = _Store_jpg__WEBPACK_IMPORTED_MODULE_3__\n\n        // Cria elementos para mostrar informações sobre a localização\n        const LocalDiv = document.createElement('div')\n        const LocalText = document.createElement('p')\n\n        // Adiciona elementos à página\n        content.appendChild(LocalDiv)\n        LocalDiv.appendChild(LocalText)\n        LocalDiv.appendChild(store)\n        LocalText.textContent = 'Testando como esse texto interage com a página'\n    }\n\n    // Função para exibir o menu\n    function menu(){\n        // Cria elementos para mostrar o menu\n        const Menu = document.createElement('div')\n        const Title = document.createElement('h1')\n        Title.textContent = 'Pudim'\n        content.appendChild(Menu)\n        Menu.appendChild(Title)\n\n        // Loop para criar itens do menu\n        for(let j = 0; j < 6; j++){\n            // Aqui você pode adicionar lógica para criar itens do menu\n        }\n    }\n\n    // Retorna os elementos de conteúdo e botão\n    return content, button\n}\n\n// Adiciona o componente à página\ncontent.appendChild(component());\n\n\n//# sourceURL=webpack://pagina-restaurante/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _imgs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs */ \"./src/imgs.js\");\n/* harmony import */ var normalize_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n\n\n\n\n/*\ntodos:\n1 - separar as funções em varios arquivos menores para melhor desenvolvimento\n2 - estilizar a pagina\n3 - fazer comentarios no codigo\n4 - criar um readMe\n\n*/\n\n\nfunction component(){\n/*\nlogica dos botões, cada botão recebe um evento de click\ne devolve uma função filha dependendo do valor\n*/\n    const content = document.querySelector('#content');\n    const button = document.querySelectorAll('button')\n\n    button.forEach((button) => {\n        button.addEventListener('click', () =>{\n\n            content.innerHTML = \" \"\n            \n            if(button.value == \"about\"){\n                about()\n            }\n            if(button.value == \"local\"){\n                local()\n            }\n            if(button.value == \"menu\"){\n                Main()\n            }\n        });\n    });\n\n//funções filhas\n\n//essa função retorna o conteu na pagina de about\n    function about(){\n        \n        const AboutDiv = document.createElement('div')\n        const AboutText = document.createElement('p')\n        const AboutList = document.createElement('ul')\n  \n        content.appendChild(AboutDiv)\n\n        AboutDiv.appendChild(AboutText)\n\n        content.appendChild(AboutList)\n\n        AboutText.textContent = \"Esse e um texto de teste feito para testar como esse elemento esta interagindo com a pagina\"\n        \n        for (let i = 0; i < 2; i++) {\n            \n            const AboutInfo = document.createElement('li');\n            AboutList.appendChild(AboutInfo);\n    \n            // Adicionando as imagens antes do texto\n            const Icon = new Image();\n            Icon.src = i === 0 ? _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.Phone : _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.storeIcon;\n            AboutInfo.appendChild(Icon);\n    \n            // Adicionando o texto após as imagens\n            const text = document.createElement('span');\n            text.textContent = i === 0 ? 'Lista gerada com sucesso' : 'Segundo item da lista gerado com sucesso';\n            AboutInfo.appendChild(text);\n        }\n\n    }\n\n    function local(){\n        const store = new Image();\n        store.src = _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.storeFront\n\n        const LocalDiv = document.createElement('div')\n        const LocalText = document.createElement('p')\n\n        content.appendChild(LocalDiv)\n        LocalDiv.appendChild(LocalText)\n        LocalDiv.appendChild(store)\n        LocalText.textContent = 'testando como esse texto interage com a pagina'\n      \n    }\n\n    function Main(){\n        const Menu = document.createElement('div');\n        const Title = document.createElement('h1');\n        Title.textContent = 'Menu';\n        content.appendChild(Menu);\n        Menu.appendChild(Title);\n    \n        const ItensName = [\"Pizza\", \"Hamburguer de Bacon\", \"Hamburger Artesanal\", \"Cachorro-quente\", \"Cerveja\", \"Suco de Laranja\"];\n        \n        const itensText = [\n            \"Uma pizza de queijo deliciosa\",\n            \"Um hamburguer de bacon crocante\",\n            \"Um hamburguer Artesanal com pão brioche e ingredientes selecionados\",\n            \"Um cachorro-quente temperado de qualidade\",\n            \"Cerveja geladinha\",\n            \"Suco de laranja natural feito com frutas frescas\"\n        ];\n\n        const ItensImgs = [_imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.food1, _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.food2, _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.food3, _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.food4, _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.food5, _imgs__WEBPACK_IMPORTED_MODULE_1__.imgIndex.food6];\n    \n        // Loop pelos itens de texto e imagens simultaneamente\n        ItensName.forEach(function (itemName, index) {\n            const MenuDiv = document.createElement('div');\n            const MenuName = document.createElement('h1');\n            const MenuText = document.createElement('p');\n            const food = new Image();\n    \n            // Define a imagem do item atual\n            food.src = ItensImgs[index];\n    \n            // Define o texto do item atual\n            MenuName.textContent = itemName;\n            MenuText.textContent = itensText[index];\n    \n            // Adiciona os elementos ao DOM\n            content.appendChild(MenuDiv);\n            MenuDiv.appendChild(MenuName);\n            MenuDiv.appendChild(MenuText);\n            MenuDiv.style.backgroundImage = `url('${food.src}')`;\n        });\n    \n    }\n\nreturn content\n\n}\n\ncontent.appendChild(component());\n\n\n//# sourceURL=webpack://pagina-restaurante/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/Store.jpg":
-/*!***********************!*\
-  !*** ./src/Store.jpg ***!
-  \***********************/
+/***/ "./src/imgs/Hamburger1.jpg":
+/*!*********************************!*\
+  !*** ./src/imgs/Hamburger1.jpg ***!
+  \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"42004f909bb75033626e.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/Store.jpg?");
+eval("module.exports = __webpack_require__.p + \"fcc4fdf4aeb2bc4e7452.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/Hamburger1.jpg?");
 
 /***/ }),
 
-/***/ "./src/phone.svg":
-/*!***********************!*\
-  !*** ./src/phone.svg ***!
-  \***********************/
+/***/ "./src/imgs/Hamburguer2.jpg":
+/*!**********************************!*\
+  !*** ./src/imgs/Hamburguer2.jpg ***!
+  \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d51bd39de406c9495716.svg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/phone.svg?");
+eval("module.exports = __webpack_require__.p + \"26fa323e07826b86e403.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/Hamburguer2.jpg?");
 
 /***/ }),
 
-/***/ "./src/store.svg":
-/*!***********************!*\
-  !*** ./src/store.svg ***!
-  \***********************/
+/***/ "./src/imgs/Pizza.jpg":
+/*!****************************!*\
+  !*** ./src/imgs/Pizza.jpg ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ac4bf5a8bda5d5c6a908.svg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/store.svg?");
+eval("module.exports = __webpack_require__.p + \"a6aa47d069833175d048.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/Pizza.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/Store.jpg":
+/*!****************************!*\
+  !*** ./src/imgs/Store.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"42004f909bb75033626e.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/Store.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/cerveja.jpg":
+/*!******************************!*\
+  !*** ./src/imgs/cerveja.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"501b4d8069e0c9674f08.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/cerveja.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/dog.jpg":
+/*!**************************!*\
+  !*** ./src/imgs/dog.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4bdd1afe86ff7cf185e7.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/dog.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/phone.svg":
+/*!****************************!*\
+  !*** ./src/imgs/phone.svg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d51bd39de406c9495716.svg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/phone.svg?");
+
+/***/ }),
+
+/***/ "./src/imgs/store.svg":
+/*!****************************!*\
+  !*** ./src/imgs/store.svg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ac4bf5a8bda5d5c6a908.svg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/store.svg?");
+
+/***/ }),
+
+/***/ "./src/imgs/suco.jpg":
+/*!***************************!*\
+  !*** ./src/imgs/suco.jpg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"bdcfa456bc0469b23e27.jpg\";\n\n//# sourceURL=webpack://pagina-restaurante/./src/imgs/suco.jpg?");
 
 /***/ })
 

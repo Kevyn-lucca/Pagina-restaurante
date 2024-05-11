@@ -1,29 +1,30 @@
-// Importando os estilos, e os ícones e imagens necessários para a página deve importa somente o style
 import './style.css';
-import IconOne from './phone.svg';
-import IconTwo from './store.svg'
-import LocalImg from './Store.jpg'
+import { imgIndex } from './imgs';
+import 'normalize.css'
+
 /*
-Todos:  
-    1 - criar o loop que gera seis divs aonde vai o menu
-    2 - cria o objeto que tem todas as imagens que irão no site
-    3 - gerar a logica que poẽm uma imagem diferente em cada div
-    4 - gera a logica que poẽm um texto diferente em cada div
-    5 - estilizar o site
-        ?cria um array que pega um texto e uma imagem se pa para fazer a 4 ea 3?
-        !estilizar o site provavelmente e o que mais vai demorar, cheque a folha de desing
+todos:
+1 - separar as funções em varios arquivos menores para melhor desenvolvimento
+2 - estilizar a pagina
+3 - fazer comentarios no codigo
+4 - criar um readMe
+
 */
 
-// Função principal que cria e manipula os elementos da página
-function component(){
 
-    // Lógica para lidar com os botões
+function component(){
+/*
+logica dos botões, cada botão recebe um evento de click
+e devolve uma função filha dependendo do valor
+*/
+    const content = document.querySelector('#content');
+    const button = document.querySelectorAll('button')
+
     button.forEach((button) => {
         button.addEventListener('click', () =>{
-            // Limpa o conteúdo atual
+
             content.innerHTML = " "
             
-            // Condição para determinar qual função será chamada com base no valor do botão
             if(button.value == "about"){
                 about()
             }
@@ -31,37 +32,39 @@ function component(){
                 local()
             }
             if(button.value == "menu"){
-                menu()
+                Main()
             }
         });
     });
 
-    // Função para exibir informações sobre a empresa
+//funções filhas
+
+//essa função retorna o conteu na pagina de about
     function about(){
-        // Cria elementos para mostrar informações sobre a empresa
+        
         const AboutDiv = document.createElement('div')
         const AboutText = document.createElement('p')
         const AboutList = document.createElement('ul')
   
-        // Adiciona elementos à página
         content.appendChild(AboutDiv)
+
         AboutDiv.appendChild(AboutText)
+
         content.appendChild(AboutList)
 
-        // Define o texto sobre a empresa
-        AboutText.textContent = "Esse é um texto de teste feito para testar como esse elemento está interagindo com a página"
+        AboutText.textContent = "Esse e um texto de teste feito para testar como esse elemento esta interagindo com a pagina"
         
-        // Loop para criar itens de lista com ícones e texto
         for (let i = 0; i < 2; i++) {
+            
             const AboutInfo = document.createElement('li');
             AboutList.appendChild(AboutInfo);
     
-            // Adiciona ícones de acordo com o índice do loop
+            // Adicionando as imagens antes do texto
             const Icon = new Image();
-            Icon.src = i === 0 ? IconOne : IconTwo;
+            Icon.src = i === 0 ? imgIndex.Phone : imgIndex.storeIcon;
             AboutInfo.appendChild(Icon);
     
-            // Adiciona texto aos itens da lista
+            // Adicionando o texto após as imagens
             const text = document.createElement('span');
             text.textContent = i === 0 ? 'Lista gerada com sucesso' : 'Segundo item da lista gerado com sucesso';
             AboutInfo.appendChild(text);
@@ -69,41 +72,65 @@ function component(){
 
     }
 
-    // Função para exibir informações sobre a localização
     function local(){
-        // Cria elemento de imagem para mostrar a localização
         const store = new Image();
-        store.src = LocalImg
+        store.src = imgIndex.storeFront
 
-        // Cria elementos para mostrar informações sobre a localização
         const LocalDiv = document.createElement('div')
         const LocalText = document.createElement('p')
 
-        // Adiciona elementos à página
         content.appendChild(LocalDiv)
         LocalDiv.appendChild(LocalText)
         LocalDiv.appendChild(store)
-        LocalText.textContent = 'Testando como esse texto interage com a página'
+        LocalText.textContent = 'testando como esse texto interage com a pagina'
+      
     }
 
-    // Função para exibir o menu
-    function menu(){
-        // Cria elementos para mostrar o menu
-        const Menu = document.createElement('div')
-        const Title = document.createElement('h1')
-        Title.textContent = 'Pudim'
-        content.appendChild(Menu)
-        Menu.appendChild(Title)
+    function Main(){
+        const Menu = document.createElement('div');
+        const Title = document.createElement('h1');
+        Title.textContent = 'Menu';
+        content.appendChild(Menu);
+        Menu.appendChild(Title);
+    
+        const ItensName = ["Pizza", "Hamburguer de Bacon", "Hamburger Artesanal", "Cachorro-quente", "Cerveja", "Suco de Laranja"];
+        
+        const itensText = [
+            "Uma pizza de queijo deliciosa",
+            "Um hamburguer de bacon crocante",
+            "Um hamburguer Artesanal com pão brioche e ingredientes selecionados",
+            "Um cachorro-quente temperado de qualidade",
+            "Cerveja geladinha",
+            "Suco de laranja natural feito com frutas frescas"
+        ];
 
-        // Loop para criar itens do menu
-        for(let j = 0; j < 6; j++){
-            // Aqui você pode adicionar lógica para criar itens do menu
-        }
+        const ItensImgs = [imgIndex.food1, imgIndex.food2, imgIndex.food3, imgIndex.food4, imgIndex.food5, imgIndex.food6];
+    
+        // Loop pelos itens de texto e imagens simultaneamente
+        ItensName.forEach(function (itemName, index) {
+            const MenuDiv = document.createElement('div');
+            const MenuName = document.createElement('h1');
+            const MenuText = document.createElement('p');
+            const food = new Image();
+    
+            // Define a imagem do item atual
+            food.src = ItensImgs[index];
+    
+            // Define o texto do item atual
+            MenuName.textContent = itemName;
+            MenuText.textContent = itensText[index];
+    
+            // Adiciona os elementos ao DOM
+            content.appendChild(MenuDiv);
+            MenuDiv.appendChild(MenuName);
+            MenuDiv.appendChild(MenuText);
+            MenuDiv.style.backgroundImage = `url('${food.src}')`;
+        });
+    
     }
 
-    // Retorna os elementos de conteúdo e botão
-    return content, button
+return content
+
 }
 
-// Adiciona o componente à página
 content.appendChild(component());
