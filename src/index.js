@@ -1,4 +1,4 @@
-import './style.css';
+import './Menu.css';
 import 'normalize.css'
 import { about } from './about';
 import { local } from './local';
@@ -8,7 +8,6 @@ todos:
 1 - terminar de estilar o sobre e local, fazer as animações
 2 - fazer comentarios no codigo
 3 - criar um readMe
-
 */
 
 function component(){

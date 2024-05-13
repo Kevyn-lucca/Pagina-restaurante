@@ -1,0 +1,173 @@
+header{
+    display: flex;
+    place-content: center;
+    padding-top: 20px;
+}
+
+html {
+    --s: 150px; /* control the size */
+    --c1: #f7d2a1;
+    --c2: #05057e;
+  
+    --_g: 
+       var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
+       var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
+       #0000 96%;
+    background:
+      radial-gradient(50% 50% at 100% 0,var(--_g)),
+      radial-gradient(50% 50% at 0 100%,var(--_g)),
+      radial-gradient(50% 50%,var(--_g)),
+      radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+      var(--c1);
+    background-size: var(--s) var(--s);
+  }
+  
+
+
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin-left: 3rem;
+    margin-bottom: 1rem; 
+}
+
+button{
+    border: none;
+    padding: 15px
+}
+
+.MenuIten{
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+   max-width: 14.2rem;
+    max-height: 12rem;
+    text-align: center;
+}
+
+.MenuIten:hover{
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.6); /* Cor escura semi-transparente */
+    background-blend-mode: darken;
+}
+
+.MenuIten > p{
+  max-width: 12.688rem;
+  opacity: 0;
+}
+
+.MenuIten>p:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.MenuIten >h1{
+    max-width: 14.2rem;
+    opacity: 0;
+}
+
+.MenuIten > h1:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.MenuGrid{
+    display: grid;
+    grid-template-columns: repeat(3,15rem);
+    place-content: center;
+    gap: 2rem;
+    height: 34rem;
+    background-color: white;
+    max-width: 70rem;
+    margin-left: 15%;
+    animation-name: appear;
+    animation-duration: 4s;    
+    background: radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #8d8c9b 47%, #8d8c9b 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #8d8c9b 47%, #8d8c9b 52%, transparent 53%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.ItenMain > div:nth-child(1) {
+    display: flex;
+    place-content: center;
+    max-width: 70rem;
+    margin-left: 15%;
+    background-color: white;
+    height: 4rem;  
+    animation-name: appear;
+    animation-duration: 4s;
+    border-bottom:2px solid black;    
+    background: radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #8d8c9b 47%, #8d8c9b 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #8d8c9b 47%, #8d8c9b 52%, transparent 53%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1
+}
+
+.ItenMain >div:nth-child(1) > h1{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2rem;    
+}
+
+
+/*
+Css da pagina de about
+*/
+
+.AboutDiv{
+    display: grid;
+    place-content: center;
+    background-color: white;
+    max-width: 70rem;
+    margin-left: 15%;
+    animation: appear 1s;
+    
+}
+
+.AboutDiv > p{
+    padding-left: 1rem;
+}
+
+.AboutDiv > ul > li{
+    list-style: none;
+    gap: 10px;
+    display: flex;
+}
+
+.AboutDiv > ul > li> span{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+/*Local css*/
+
+.Localdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: white;
+    animation: appear 1s;
+}
+
+.Localdiv > img{
+    max-width: 50%;
+    max-height: fit-content;
+    padding: 1rem;
+}
+
+.Localdiv > p {
+ margin-right: 3rem;
+}
